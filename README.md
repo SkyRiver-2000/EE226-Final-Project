@@ -1,6 +1,6 @@
 # EE226-Final-Project
 
-This repository stores the source code and some preprocessed data for the final project of EE226 in SJTU.
+This repository stores the source code and some preprocessed data of **Group 12** for the final project of EE226 in SJTU.
 
 ### Node Classification
 
