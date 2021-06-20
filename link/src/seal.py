@@ -13,7 +13,6 @@ from scipy.sparse.csgraph import shortest_path
 import torch
 import torch.nn.functional as F
 from torch.nn import BCEWithLogitsLoss
-from adabound import AdaBound
 
 from torch_geometric.nn import GCNConv, SGConv, global_sort_pool
 from torch_geometric.data import Data, Dataset, InMemoryDataset, DataLoader
