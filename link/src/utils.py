@@ -216,7 +216,7 @@ def load_data(path="dataset/"):
     #                          shape=(N_TOTAL_NODES, N_TOTAL_NODES), dtype=np.float32)
     # features = sparse_mx_to_torch_sparse_tensor(features)
     
-    features = np.load("../N2V_128d_3t.npy")
+    features = np.ones((N_TOTAL_NODES, 1))
     features = torch.FloatTensor(features)
 
     # features = np.load("../N2V_512d_{}t.npy".format(np.shape(pd.unique(edge_type[:, 0]))[0]))
