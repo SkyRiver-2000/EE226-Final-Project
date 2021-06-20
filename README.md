@@ -7,6 +7,8 @@ This repository stores the source code and some preprocessed data for the final 
 For task 1 (node classification), just **enter the [`node`](node/) directory** and run the following command to check our results:
 ```shell
 mkdir submission # if this directory does not exist
+mkdir models # if this directory does not exist
+mkdir models/saves # if this directory does not exist
 python example.py
 ```
 
@@ -24,6 +26,8 @@ If you want to revise them, check [`utils.py`](node/src/utils.py) and [`example.
 For task 2 (link prediction), just **enter the [`link`](link/) directory** and run the following command to check our results:
 ```shell
 mkdir submission # if this directory does not exist
+mkdir models # if this directory does not exist
+mkdir models/saves # if this directory does not exist
 python src/seal.py
 ```
 
