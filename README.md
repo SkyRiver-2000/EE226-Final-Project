@@ -8,10 +8,7 @@
 * Node
     >1. node classification的结果可以在node目录下直接运行python example.py得到，default的GNN是"SGC"。
     >2. 如果想要使用不同的GNN Kernel，可以在运行时添加参数，例如想要使用GCN时，可用如下命令：python example.py --conv GCN。
-    
     >3. 可以在node/src目录下的utils.py文件中的load_data函数中修改features的类型。
-    
     >4. 可以在node/src目录下的utils.py文件中的load_edges函数中修改边的weight。
-    
     >5. 可以在node/example.py文件中修改model的num_layers。
 
