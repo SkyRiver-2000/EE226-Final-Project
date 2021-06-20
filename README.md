@@ -17,7 +17,7 @@ python example.py --conv GCN
 ```
 
 At present, some parameters are not supported to be set directly by passing arguments.  
-If you want to revise them, check [`utils.py`](node/src/utils.py) and [`example.py`](node/src/example.py).
+If you want to revise them, check [`utils.py`](node/src/utils.py) and [`example.py`](node/example.py).
 
 ### Link Prediction
 
