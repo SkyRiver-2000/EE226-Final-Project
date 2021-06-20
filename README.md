@@ -15,4 +15,4 @@
     >可以在node/src目录下的utils.py文件中的load_edges函数中修改边的weight。
     
     >可以在node/example.py文件中修改model的num_layers。
-* Node
+
