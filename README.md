@@ -1,6 +1,7 @@
-# EE226-Final-Project
+# EE226 Final Project
 
-This repository stores the source code and some preprocessed data of **Group 12** for the final project of EE226 in SJTU.
+This repository stores the source code and some preprocessed data of **Group 12** for the final project of EE226 in SJTU.  
+For details please refer to our paper [Data Mining and Predicting on Academic Networks Based on Graph Neural Networks](report.pdf).
 
 ### Node Classification
 
@@ -40,6 +41,10 @@ python src/seal.py --n_models 1
 At present, some parameters are not supported to be set directly by passing arguments.  
 If you want to revise them, check [`utils.py`](link/src/utils.py), [`seal_utils.py`](link/src/seal_utils.py) and [`seal.py`](node/src/seal.py).
 
+### References
+1. Felix Wu, Tianyi Zhang, et al. [Simplifying Graph Convolutional Networks](http://arxiv.org/abs/1902.07153).  
+2. Yu Rong, Wenbing Huang, et al. [DropEdge: Towards Deep Graph Convolutional Networks on Node Classification](https://arxiv.org/abs/1907.10903).  
+3. Muhan Zhang, and Yixin Chen. [Link Prediction Based on Graph Neural Networks](https://arxiv.org/abs/1802.09691).  
 
 
 <!-- * Node
