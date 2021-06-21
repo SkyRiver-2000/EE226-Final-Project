@@ -3,6 +3,21 @@
 This repository stores the source code and some preprocessed data of **Group 12** for the final project of EE226 in SJTU.  
 For more details please refer to [our paper](report.pdf).
 
+### Performance
+* 0.51895 mean F1-score (2nd) on private leaderboard of node classification
+* 0.79756 AUC score (2nd) on private leaderboard of link prediction
+
+Note: Combining our `SEAL` solution with `node2vec+lightgbm` solution, we achieve 0.81069 on link prediction.
+
+### Environment
+We use a conda environment with python 3.7.0. Key packages (with necessary dependencies):  
+* pytorch 1.8.1
+* torch-geometric 1.7.0
+* lightgbm 3.1.1
+
+Lower version of these packages might also work fine, but we only test with the specified versions above.  
+Some basic packages like numpy, pandas, scipy, and tqdm are also required, and conda/pip makes things fine.
+
 ### Node Classification
 
 For task 1 (node classification), just **enter the [`node`](node/) directory** and run the following command to check our results:
