@@ -1,7 +1,7 @@
 # EE226 Final Project
 
 This repository stores the source code and some preprocessed data of **Group 12** for the final project of EE226 in SJTU.  
-For details please refer to our paper [Data Mining and Predicting on Academic Networks Based on Graph Neural Networks](report.pdf).
+For more details please refer to [our paper](report.pdf).
 
 ### Node Classification
 
