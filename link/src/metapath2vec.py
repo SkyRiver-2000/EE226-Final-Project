@@ -133,4 +133,4 @@ for epoch in range(1, N_EPOCHS+1):
 
 z2 = model('author').detach().cpu().numpy()
 z = np.hstack([z1, z2])
-np.save("../metapath2vec_{}d.npy".format(N_DIM), z)
+np.save("metapath2vec_{}d.npy".format(N_DIM), z)

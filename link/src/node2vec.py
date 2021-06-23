@@ -111,4 +111,4 @@ if args.with_neg_edge:
     additional_data += "_with_neg_edge"
 filename = "N2V_{}d_{}t{}.npy".format(N_DIM, np.shape(pd.unique(edge_type[:, 0].numpy()))[0], additional_data)
 print(filename)
-np.save("../{}".format(filename), z)
+np.save(filename, z)
