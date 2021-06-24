@@ -56,10 +56,20 @@ python src/seal.py --n_models 1
 At present, some parameters are not supported to be set directly by passing arguments.  
 If you want to revise them, check [`utils.py`](link/src/utils.py), [`seal_utils.py`](link/src/seal_utils.py) and [`seal.py`](node/src/seal.py).
 
+We also provide `node2vec` and `metapath2vec` demo:
+* [`node2vec.py`](link/src/node2vec.py): Generate node embeddings using node2vec.
+* [`metapath2vec.py`](link/src/metapath2vec.py): Generate node embeddings using metapath2vec.
+* [`n2v_pred.py`](link/src/n2v_pred.py): Solve link prediction using node embeddings.
+
+Trained embeddings (.npy files) are provided under the [`link`](link/) folder.  
+Demo of generative models are to be updated in the future.
+
 ### References
-1. Felix Wu, Tianyi Zhang, et al. [Simplifying Graph Convolutional Networks](http://arxiv.org/abs/1902.07153).  
-2. Yu Rong, Wenbing Huang, et al. [DropEdge: Towards Deep Graph Convolutional Networks on Node Classification](https://arxiv.org/abs/1907.10903).  
-3. Muhan Zhang, and Yixin Chen. [Link Prediction Based on Graph Neural Networks](https://arxiv.org/abs/1802.09691).  
+1. Aditya Grover, and Jure Leskovec. [node2vec: Scalable Feature Learning for Networks](https://arxiv.org/abs/1607.00653).
+2. Yuxiao Dong, Nitesh V. Chawla, et al. [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://dl.acm.org/doi/10.1145/3097983.3098036).
+3. Felix Wu, Tianyi Zhang, et al. [Simplifying Graph Convolutional Networks](http://arxiv.org/abs/1902.07153).  
+4. Yu Rong, Wenbing Huang, et al. [DropEdge: Towards Deep Graph Convolutional Networks on Node Classification](https://arxiv.org/abs/1907.10903).  
+5. Muhan Zhang, and Yixin Chen. [Link Prediction Based on Graph Neural Networks](https://arxiv.org/abs/1802.09691).  
 
 
 <!-- * Node
