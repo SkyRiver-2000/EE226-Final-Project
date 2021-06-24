@@ -65,11 +65,11 @@ Trained embeddings (.npy files) are provided under the [`link`](link/) folder.
 Demo of generative models are to be updated in the future.
 
 ### References
-[1] A. Grover, and J. Leskovec. [node2vec: Scalable Feature Learning for Networks](https://arxiv.org/abs/1607.00653), KDD 2016.  
-[2] Y. Dong, N. Chawla, et al. [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://dl.acm.org/doi/10.1145/3097983.3098036), KDD 2017.  
-[3] F. Wu, T. Zhang, et al. [Simplifying Graph Convolutional Networks](http://arxiv.org/abs/1902.07153), ICML 2019.  
-[4] Y. Rong, W. Huang, et al. [DropEdge: Towards Deep Graph Convolutional Networks on Node Classification](https://arxiv.org/abs/1907.10903), ICLR 2020.  
-[5] M. Zhang, and Y. Chen. [Link Prediction Based on Graph Neural Networks](https://arxiv.org/abs/1802.09691), NeurIPS 2018.  
+[1] A. Grover, and J. Leskovec. [node2vec: Scalable Feature Learning for Networks](https://arxiv.org/abs/1607.00653), KDD 16'.  
+[2] Y. Dong, N. Chawla, et al. [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://dl.acm.org/doi/10.1145/3097983.3098036), KDD 17'.  
+[3] F. Wu, T. Zhang, et al. [Simplifying Graph Convolutional Networks](http://arxiv.org/abs/1902.07153), ICML 19'.  
+[4] Y. Rong, W. Huang, et al. [DropEdge: Towards Deep Graph Convolutional Networks on Node Classification](https://arxiv.org/abs/1907.10903), ICLR 20'.  
+[5] M. Zhang, and Y. Chen. [Link Prediction Based on Graph Neural Networks](https://arxiv.org/abs/1802.09691), NeurIPS 18'.  
 
 
 <!-- * Node
