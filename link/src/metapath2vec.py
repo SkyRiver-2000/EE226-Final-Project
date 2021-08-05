@@ -1,5 +1,3 @@
-# Reaches around 91.8% Micro-F1 after 5 epochs.
-
 import argparse
 
 import torch
